@@ -1,4 +1,2 @@
-# OS_code
-An operating system is a fundamental software component that manages computer hardware and provides services for software applications
 #Fork.c
 The "fork" function is a crucial concept in operating systems that enables the creation of a new process from an existing process. When a process calls the fork function, it generates an exact copy of itself, known as the child process. The child process initially shares the same code, data, and resources with the parent process. This copy-on-write approach optimizes memory usage by only duplicating memory pages when necessary. The fork function returns different values in the parent and child processes: the child process receives a return value of 0, while the parent process receives the child's process ID. This mechanism is used to create parallel processes, facilitate multitasking, and enable concurrent execution in various applications.
